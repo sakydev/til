@@ -1,0 +1,21 @@
+### How to read a CSV file in PHP
+
+```
+<?php
+
+$file = 'data.csv';
+$separator = "\t";
+$done = 0;
+if (($handle = fopen($file, "r")) !== FALSE) {
+   while (($data = fgetcsv($handle, false, "$separator")) !== FALSE) {
+    $done += 1;
+    if ($done < 2) {
+      $fields = explode($separator, str_replace(' ', '', implode($separator, $data)));
+      continue;
+    }
+
+    $item = array_combine($fields, $data);
+     print_r($item);
+  }
+}
+```
