@@ -6,12 +6,13 @@ output = 'Things I Learned Today about programming languages, frameworks and lib
 for mainFile in listdir('.'):
 	directory = filepath = ''
 	if path.isdir(mainFile):
-		output += '\n**' + mainFile + '**  \n'
+		output += '\n**' + mainFile.capitalize() + '**  \n'
 		directory += mainFile
 		for file in listdir(mainFile):
 			if file.endswith('.md'):
 				filepath = directory + '/' + file
-				output += f'- [{file}]({filepath})  \n'
+				filetitle = file.replace('-', ' ').replace('.md', '').capitalize()
+				output += f'- [{filetitle}]({filepath})  \n'
 
 file = open('README.md', 'w')
 file.write(output)
