@@ -2,8 +2,11 @@ Things I Learned Today about programming languages, frameworks and libararies or
 
 
 **Bash**  
+- [Activate a virtual environment via bash](bash/activate-a-virtual-environment-via-bash.md)  
+- [Create mysql table and import large file](bash/create-mySQL-table-and-import-large-file.md)  
 - [Quickly login to mysql using bash](bash/quickly-login-to-mysql-using-bash.md)  
 - [Run a script if it is not already running using bash](bash/run-a-script-if-it-is-not-already-running-using-bash.md)  
+- [Zip all files in directory and send to another server](bash/zip-all-files-in-directory-and-send-to-another-server.md)  
 
 **Bootstrap**  
 - [Center any element in bootstrap](bootstrap/center-any-element-in-bootstrap.md)  
@@ -13,10 +16,12 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [How to center things using css](css/how-to-center-things-using-css.md)  
 
 **Ffmpeg**  
+- [Increase video speed](ffmpeg/increase-video-speed.md)  
 - [Rotate a video by x degress in ffmpeg](ffmpeg/rotate-a-video-by-x-degress-in-ffmpeg.md)  
 
 **Flask**  
 - [Dynamically generate url for assets in flask](flask/dynamically-generate-url-for-assets-in-flask.md)  
+- [Multiple endpoints in same functions in flask](flask/multiple-endpoints-in-same-functions-in-flask.md)  
 
 **Google-chrome**  
 - [View google chrome extension source code](google-chrome/view-google-chrome-extension-source-code.md)  
@@ -90,6 +95,7 @@ Things I Learned Today about programming languages, frameworks and libararies or
 **Scrapy**  
 - [Find element that has particular text in scrapy](scrapy/find-element-that-has-particular-text-in-scrapy.md)  
 - [Make scrapy spider interactive any point](scrapy/make-scrapy-spider-interactive-any-point.md)  
+- [Retry failed requests in scrapy](scrapy/retry-failed-requests-in-scrapy.md)  
 - [Run a fucntion when scrapy spider closes](scrapy/run-a-fucntion-when-scrapy-spider-closes.md)  
 
 **Sphinx**  
