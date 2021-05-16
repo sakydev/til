@@ -1,4 +1,4 @@
-Things I Learned Today about programming languages, frameworks and libararies or technology in general  
+Things I Learned Today about programming languages, frameworks and libararies or technology in general. I Learned Today or stuff that I've already learned and I don't want to go out and figure out those same solutions again.
 
 
 **Bash**  
