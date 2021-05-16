@@ -14,6 +14,7 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Search question using wolframalpha in python](python/search-question-using-wolframalpha-in-python.md)  
 
 **Mysql**  
+- [Copy a table with schema, indexes and data](mysql/copy-a-table-with-schema,-indexes-and-data.md)  
 - [Create btree indexes in mysql](mysql/create-btree-indexes-in-mysql.md)  
 - [Create fulltext indexes in mysql](mysql/create-fulltext-indexes-in-mysql.md)  
 - [Create or dop multiple mysql indexes in same query](mysql/create-or-dop-multiple-mysql-indexes-in-same-query.md)  
@@ -27,6 +28,7 @@ Things I Learned Today about programming languages, frameworks and libararies or
 **Linux**  
 - [Change host name in linux server](linux/change-host-name-in-linux-server.md)  
 - [Count files per day in a directory in linux](linux/count-files-per-day-in-a-directory-in-linux.md)  
+- [Count number of lines in file](linux/count-number-of-lines-in-file.md)  
 - [Create new apache user in linux](linux/create-new-apache-user-in-linux.md)  
 - [Download apache password protected file using wget in linux](linux/download-apache-password-protected-file-using-wget-in-linux.md)  
 - [How quickly delete a huge directory in linux](linux/how-quickly-delete-a-huge-directory-in-linux.md)  
@@ -41,6 +43,14 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Quick each example jquery](jquery/quick-each-example-jquery.md)  
 - [Scroll to bottom of html page using jquery](jquery/scroll-to-bottom-of-html-page-using-jquery.md)  
 - [Send an ajax request](jquery/send-an-ajax-request.md)  
+
+**Php**  
+- [Autoload classes in php](php/autoload-classes-in-php.md)  
+- [Find total weekends between two dates in php](php/find-total-weekends-between-two-dates-in-php.md)  
+- [Read csv file in php](php/read-csv-file-in-php.md)  
+- [Rotate all videos in a directory using ffmpeg](php/rotate-all-videos-in-a-directory-using-ffmpeg.md)  
+- [Run a command on multiple mysql tables using php](php/run-a-command-on-multiple-mysql-tables-using-php.md)  
+- [Use proxies with curl in php](php/use-proxies-with-curl-in-php.md)  
 
 **Bash**  
 - [Activate a virtual environment via bash](bash/activate-a-virtual-environment-via-bash.md)  
@@ -60,12 +70,6 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Make scrapy spider interactive any point](scrapy/make-scrapy-spider-interactive-any-point.md)  
 - [Retry failed requests in scrapy](scrapy/retry-failed-requests-in-scrapy.md)  
 - [Run a fucntion when scrapy spider closes](scrapy/run-a-fucntion-when-scrapy-spider-closes.md)  
-
-**Php**  
-- [Find total weekends between two dates in php](php/find-total-weekends-between-two-dates-in-php.md)  
-- [Read csv file in php](php/read-csv-file-in-php.md)  
-- [Rotate all videos in a directory using ffmpeg](php/rotate-all-videos-in-a-directory-using-ffmpeg.md)  
-- [Run a command on multiple mysql tables using php](php/run-a-command-on-multiple-mysql-tables-using-php.md)  
 
 **Laravel**  
 - [Common laravel template structure](laravel/common-laravel-template-structure.md)  
