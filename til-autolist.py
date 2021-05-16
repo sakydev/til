@@ -1,10 +1,24 @@
 # This little script automatically creates README for this project
 # and links all TILs appropriately... Gosh... The blessing of loops
 from os import listdir, path
+from sys import exit
 
 output = 'Things I Learned Today about programming languages, frameworks and libararies or technology in general  \n\n'
+
 total = 0
+directories = {}
 for mainFile in listdir('.'):
+	if path.isdir(mainFile):
+		quickTotal = 0
+		for file in listdir(mainFile):
+			if file.endswith('.md'):
+				quickTotal += 1
+		directories[mainFile] = quickTotal
+
+directories = sorted(directories, key=lambda i: int(directories[i]))
+directories.reverse()
+
+for mainFile in directories:
 	directory = filepath = ''
 	if path.isdir(mainFile):
 		output += '\n**' + mainFile.capitalize() + '**  \n'
