@@ -15,6 +15,8 @@ for mainFile in listdir('.'):
 				quickTotal += 1
 		directories[mainFile] = quickTotal
 
+# order directories but number of TILs they have
+# highest to lowest
 directories = sorted(directories, key=lambda i: int(directories[i]))
 directories.reverse()
 
