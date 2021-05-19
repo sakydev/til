@@ -1,6 +1,19 @@
 Things I Learned Today about programming languages, frameworks and libararies or technology in general  
 
 
+**Mysql**  
+- [Copy a table with schema, indexes and data](mysql/copy-a-table-with-schema,-indexes-and-data.md)  
+- [Create btree indexes in mysql](mysql/create-btree-indexes-in-mysql.md)  
+- [Create fulltext indexes in mysql](mysql/create-fulltext-indexes-in-mysql.md)  
+- [Create or dop multiple mysql indexes in same query](mysql/create-or-dop-multiple-mysql-indexes-in-same-query.md)  
+- [Find duplicates with counts in mysql table](mysql/find-duplicates-with-counts-in-mysql-table.md)  
+- [Import sql file and skip errors](mysql/import-sql-file-and-skip-errors.md)  
+- [Output select query into a text file](mysql/output-select-query-into-a-text-file.md)  
+- [Select from another table using id and sort](mysql/select-from-another-table-using-id-and-sort.md)  
+- [Show all tables with specific engine](mysql/show-all-tables-with-specific-engine.md)  
+- [Update datetime field with conversion from another in mysql](mysql/update-datetime-field-with-conversion-from-another-in-mysql.md)  
+- [Update table with matches from another table in mysql](mysql/update-table-with-matches-from-another-table-in-mysql.md)  
+
 **Python**  
 - [Change windows wallpaper using python 3](python/change-windows-wallpaper-using-python-3.md)  
 - [Extract numbers from a string](python/extract-numbers-from-a-string.md)  
@@ -12,18 +25,6 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Read a csv file in python](python/read-a-csv-file-in-python.md)  
 - [Read txt file separated by line into list in python](python/read-txt-file-separated-by-line-into-list-in-python.md)  
 - [Search question using wolframalpha in python](python/search-question-using-wolframalpha-in-python.md)  
-
-**Mysql**  
-- [Copy a table with schema, indexes and data](mysql/copy-a-table-with-schema,-indexes-and-data.md)  
-- [Create btree indexes in mysql](mysql/create-btree-indexes-in-mysql.md)  
-- [Create fulltext indexes in mysql](mysql/create-fulltext-indexes-in-mysql.md)  
-- [Create or dop multiple mysql indexes in same query](mysql/create-or-dop-multiple-mysql-indexes-in-same-query.md)  
-- [Find duplicates with counts in mysql table](mysql/find-duplicates-with-counts-in-mysql-table.md)  
-- [Import sql file and skip errors](mysql/import-sql-file-and-skip-errors.md)  
-- [Output select query into a text file](mysql/output-select-query-into-a-text-file.md)  
-- [Show all tables with specific engine](mysql/show-all-tables-with-specific-engine.md)  
-- [Update datetime field with conversion from another in mysql](mysql/update-datetime-field-with-conversion-from-another-in-mysql.md)  
-- [Update table with matches from another table in mysql](mysql/update-table-with-matches-from-another-table-in-mysql.md)  
 
 **Linux**  
 - [Change host name in linux server](linux/change-host-name-in-linux-server.md)  
