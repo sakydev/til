@@ -37,6 +37,7 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Run commands x number of times in linux](linux/run-commands-x-number-of-times-in-linux.md)  
 
 **Jquery**  
+- [Eyes friendly article reading with jquery](jquery/eyes-friendly-article-reading-with-jquery.md)  
 - [Follow people in bulk on mediumcom](jquery/follow-people-in-bulk-on-mediumcom.md)  
 - [Include jquery in console](jquery/include-jquery-in-console.md)  
 - [Iterate over several elements in jquery](jquery/iterate-over-several-elements-in-jquery.md)  
@@ -44,6 +45,14 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Quick each example jquery](jquery/quick-each-example-jquery.md)  
 - [Scroll to bottom of html page using jquery](jquery/scroll-to-bottom-of-html-page-using-jquery.md)  
 - [Send an ajax request](jquery/send-an-ajax-request.md)  
+
+**Scrapy**  
+- [Find element that has particular text in scrapy](scrapy/find-element-that-has-particular-text-in-scrapy.md)  
+- [Make scrapy spider interactive any point](scrapy/make-scrapy-spider-interactive-any-point.md)  
+- [Retry failed requests in scrapy](scrapy/retry-failed-requests-in-scrapy.md)  
+- [Run a fucntion when scrapy spider closes](scrapy/run-a-fucntion-when-scrapy-spider-closes.md)  
+- [Update a request url in scrapy](scrapy/update-a-request-url-in-scrapy.md)  
+- [Use proxies with scrapy](scrapy/use-proxies-with-scrapy.md)  
 
 **Php**  
 - [Autoload classes in php](php/autoload-classes-in-php.md)  
@@ -65,12 +74,6 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Extract best quality mp3 audio from youtube video](youtube-dl/extract-best-quality-mp3-audio-from-youtube-video.md)  
 - [Extract best quality mp3 from a list of youtube urls](youtube-dl/extract-best-quality-mp3-from-a-list-of-youtube-urls.md)  
 - [Search and download audio of first youtube video](youtube-dl/search-and-download-audio-of-first-youtube-video.md)  
-
-**Scrapy**  
-- [Find element that has particular text in scrapy](scrapy/find-element-that-has-particular-text-in-scrapy.md)  
-- [Make scrapy spider interactive any point](scrapy/make-scrapy-spider-interactive-any-point.md)  
-- [Retry failed requests in scrapy](scrapy/retry-failed-requests-in-scrapy.md)  
-- [Run a fucntion when scrapy spider closes](scrapy/run-a-fucntion-when-scrapy-spider-closes.md)  
 
 **Laravel**  
 - [Common laravel template structure](laravel/common-laravel-template-structure.md)  
