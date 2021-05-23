@@ -1,6 +1,22 @@
 Things I Learned Today about programming languages, frameworks and libararies or technology in general  
 
 
+**Ffmpeg**  
+- [Add subtitles in ffmpeg](ffmpeg/add-subtitles-in-ffmpeg.md)  
+- [Add watermark in any position in ffmpeg](ffmpeg/add-watermark-in-any-position-in-ffmpeg.md)  
+- [Extract audio of a video in ffmpeg](ffmpeg/extract-audio-of-a-video-in-ffmpeg.md)  
+- [Extract video waveform in ffmpeg](ffmpeg/extract-video-waveform-in-ffmpeg.md)  
+- [Flip a video horizontally or vertically in ffmpeg](ffmpeg/flip-a-video-horizontally-or-vertically-in-ffmpeg.md)  
+- [Generate thumbnails from video in ffmpeg](ffmpeg/generate-thumbnails-from-video-in-ffmpeg.md)  
+- [Increase or decrease audio in ffmpeg](ffmpeg/increase-or-decrease-audio-in-ffmpeg.md)  
+- [Increase video speed](ffmpeg/increase-video-speed.md)  
+- [Make a video greyscale in ffmpeg](ffmpeg/make-a-video-greyscale-in-ffmpeg.md)  
+- [Mute video at certain mark in ffmpeg](ffmpeg/mute-video-at-certain-mark-in-ffmpeg.md)  
+- [Reverse a video in ffmpeg](ffmpeg/reverse-a-video-in-ffmpeg.md)  
+- [Rotate a video by x degress in ffmpeg](ffmpeg/rotate-a-video-by-x-degress-in-ffmpeg.md)  
+- [Show two videos side by side in ffmpeg](ffmpeg/show-two-videos-side-by-side-in-ffmpeg.md)  
+- [Split a vide in ffmpeg](ffmpeg/split-a-vide-in-ffmpeg.md)  
+
 **Mysql**  
 - [Copy a table with schema, indexes and data](mysql/copy-a-table-with-schema,-indexes-and-data.md)  
 - [Create btree indexes in mysql](mysql/create-btree-indexes-in-mysql.md)  
@@ -82,10 +98,6 @@ Things I Learned Today about programming languages, frameworks and libararies or
 **Flask**  
 - [Dynamically generate url for assets in flask](flask/dynamically-generate-url-for-assets-in-flask.md)  
 - [Multiple endpoints in same functions in flask](flask/multiple-endpoints-in-same-functions-in-flask.md)  
-
-**Ffmpeg**  
-- [Increase video speed](ffmpeg/increase-video-speed.md)  
-- [Rotate a video by x degress in ffmpeg](ffmpeg/rotate-a-video-by-x-degress-in-ffmpeg.md)  
 
 **Bootstrap**  
 - [Center any element in bootstrap](bootstrap/center-any-element-in-bootstrap.md)  
