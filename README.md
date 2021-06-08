@@ -1,6 +1,22 @@
 Things I Learned Today about programming languages, frameworks and libararies or technology in general  
 
 
+**Laravel**  
+- [Add a user middleware in laravel](laravel/add-a-user-middleware-in-laravel.md)  
+- [Add helper files in laravel](laravel/add-helper-files-in-laravel.md)  
+- [Common laravel template structure](laravel/common-laravel-template-structure.md)  
+- [Create a user by default in laravel](laravel/create-a-user-by-default-in-laravel.md)  
+- [Create and use seeders in laravel](laravel/create-and-use-Seeders-in-laravel.md)  
+- [Create model, controller and migration in same command](laravel/create-model,-controller-and-migration-in-same-command.md)  
+- [Fix key is too long error in laravel](laravel/fix-key-is-too-long-error-in-laravel.md)  
+- [Manually handle http exceptions in laravel](laravel/manually-handle-HTTP-exceptions-in-laravel.md)  
+- [Migrate and seed with same command](laravel/migrate-and-seed-with-same-command.md)  
+- [Modify laravel 'home' redirection path](laravel/modify-laravel-'HOME'-redirection-path.md)  
+- [Setup token api auth with sanctum in laravel](laravel/setup-token-API-auth-with-Sanctum-in-laravel.md)  
+- [Test registration and login in laravel](laravel/test-Registration-and-Login-in-laravel.md)  
+- [Use refresh database in laravel phpunit tests](laravel/use-Refresh-database-in-laravel-PHPUnit-Tests.md)  
+- [Use validator and get all errors in laravel](laravel/use-validator-and-get-all-errors-in-laravel.md)  
+
 **Ffmpeg**  
 - [Add subtitles in ffmpeg](ffmpeg/add-subtitles-in-ffmpeg.md)  
 - [Add watermark in any position in ffmpeg](ffmpeg/add-watermark-in-any-position-in-ffmpeg.md)  
@@ -91,10 +107,6 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Extract best quality mp3 from a list of youtube urls](youtube-dl/extract-best-quality-mp3-from-a-list-of-youtube-urls.md)  
 - [Search and download audio of first youtube video](youtube-dl/search-and-download-audio-of-first-youtube-video.md)  
 
-**Laravel**  
-- [Common laravel template structure](laravel/common-laravel-template-structure.md)  
-- [Fix key is too long error in laravel](laravel/fix-key-is-too-long-error-in-laravel.md)  
-
 **Flask**  
 - [Dynamically generate url for assets in flask](flask/dynamically-generate-url-for-assets-in-flask.md)  
 - [Multiple endpoints in same functions in flask](flask/multiple-endpoints-in-same-functions-in-flask.md)  
@@ -129,3 +141,7 @@ Things I Learned Today about programming languages, frameworks and libararies or
 
 **Css**  
 - [How to center things using css](css/how-to-center-things-using-css.md)  
+
+**Nodejs**  
+
+**Django**  
