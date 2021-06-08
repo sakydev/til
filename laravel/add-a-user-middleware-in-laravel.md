@@ -15,8 +15,8 @@ if (\Auth::user()->level === 1) {
             // redirect or throw error or anything you want;
         }
 ```
-4. Then open `app\Http\Kernel.php` and add new middleware in `$routeMiddleware`
-`'admin' => \App\Http\Middleware\Middlewarename::class,`
+4. Then open `app\Http\Kernel.php` and add new middleware in `$routeMiddleware`  
+`'admin' => \App\Http\Middleware\Middlewarename::class,`  
 
-5. Then you can specify middleware in routes like below
-`Route::get('/route', [AnyController::class, 'route'])->middleware('Middlewarename');`
+5. Then you can specify middleware in routes like below  
+`Route::get('/route', [AnyController::class, 'route'])->middleware('Middlewarename');`  
