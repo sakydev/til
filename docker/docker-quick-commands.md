@@ -23,3 +23,7 @@ Remove all containers `docker rm $(docker ps -a -q)`
 Stop all containers `docker kill $(docker ps -q)`
 
 Remove all docker images `docker rmi $(docker images -q)`
+
+Publish an image
+`docker login -u username`
+`docker push username/docker-image-name`
