@@ -1,18 +1,18 @@
 ### Ubtunu 20 Post Installation Checklist
 
-- Run an update first
+##### Run an update first
       
 ```
 apt-get update
 ```
 
-- Install necessary dev tools
+##### Install necessary dev tools
       
 ```
 apt-get install zip unzip wget curl youtube-dl git subversion
 ```
 
-- Install Sublime Text
+##### Install Sublime Text
 
 ```
 apt-get update
@@ -22,7 +22,7 @@ sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt install sublime-text
 ```
 
-- Install Google chrome
+##### Install Google chrome
 
 ```
 apt-get update
@@ -30,7 +30,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
-- Install Apache, MySQL, PHP, PHPMyAdmin
+##### Install Apache, MySQL, PHP, PHPMyAdmin
 
 Apache and MySQL
 ```
@@ -45,8 +45,7 @@ PHP and some extensions
 ```
 sudo apt install php libapache2-mod-php php-mysql
 ```
-
-- Install nvm, npm (7.7.6), node (15.14.0)
+##### Install nvm, npm (7.7.6), node (15.14.0)
 
 NVM
 ```
@@ -58,7 +57,7 @@ Node using NVM
 `nvm install 15.14.0`
 
 
-- Install docker
+##### Install docker
 
 ```
 apt-get update
@@ -69,7 +68,7 @@ sudo apt install docker-ce
 sudo systemctl status docker
 ```
 
-- Install docker-compose
+##### Install docker-compose
 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
