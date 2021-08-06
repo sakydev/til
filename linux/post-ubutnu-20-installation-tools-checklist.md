@@ -9,7 +9,7 @@ apt-get update
 ##### Install necessary dev tools
       
 ```
-apt-get install zip unzip wget curl youtube-dl git subversion
+apt-get install zip unzip wget curl youtube-dl git subversion dconf-editor
 ```
 
 ##### Install Sublime Text
