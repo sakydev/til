@@ -36,6 +36,7 @@ Things I Learned Today about programming languages, frameworks and libararies or
 **Mysql**  
 - [Import sql file and skip errors](mysql/import-sql-file-and-skip-errors.md)  
 - [Update table with matches from another table in mysql](mysql/update-table-with-matches-from-another-table-in-mysql.md)  
+- [Create new user and give all privilages](mysql/create-new-user-and-give-all-privilages.md)  
 - [Create btree indexes in mysql](mysql/create-btree-indexes-in-mysql.md)  
 - [Show all tables with specific engine](mysql/show-all-tables-with-specific-engine.md)  
 - [Output select query into a text file](mysql/output-select-query-into-a-text-file.md)  
@@ -45,6 +46,18 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Update datetime field with conversion from another in mysql](mysql/update-datetime-field-with-conversion-from-another-in-mysql.md)  
 - [Copy a table with schema, indexes and data](mysql/copy-a-table-with-schema,-indexes-and-data.md)  
 - [Find duplicates with counts in mysql table](mysql/find-duplicates-with-counts-in-mysql-table.md)  
+
+**Linux**  
+- [Create new apache user in linux](linux/create-new-apache-user-in-linux.md)  
+- [Run commands x number of times in linux](linux/run-commands-x-number-of-times-in-linux.md)  
+- [Count number of lines in file](linux/count-number-of-lines-in-file.md)  
+- [Change host name in linux server](linux/change-host-name-in-linux-server.md)  
+- [Download apache password protected file using wget in linux](linux/download-apache-password-protected-file-using-wget-in-linux.md)  
+- [Count files per day in a directory in linux](linux/count-files-per-day-in-a-directory-in-linux.md)  
+- [Take screenshots or screen recordings in ubuntu 20](linux/take-screenshots-or-screen-recordings-in-ubuntu-20.md)  
+- [Post ubutnu 20 installation tools checklist](linux/post-ubutnu-20-installation-tools-checklist.md)  
+- [Run a command on each file in directory](linux/run-a-command-on-each-file-in-directory.md)  
+- [How quickly delete a huge directory in linux](linux/how-quickly-delete-a-huge-directory-in-linux.md)  
 
 **Python**  
 - [Install virtualenv and create virtual environment on windows 10](python/install-virtualenv-and-create-virtual-environment-on-windows-10.md)  
@@ -57,17 +70,6 @@ Things I Learned Today about programming languages, frameworks and libararies or
 - [Change windows wallpaper using python 3](python/change-windows-wallpaper-using-python-3.md)  
 - [Search question using wolframalpha in python](python/search-question-using-wolframalpha-in-python.md)  
 - [Extract numbers from a string](python/extract-numbers-from-a-string.md)  
-
-**Linux**  
-- [Create new apache user in linux](linux/create-new-apache-user-in-linux.md)  
-- [Run commands x number of times in linux](linux/run-commands-x-number-of-times-in-linux.md)  
-- [Count number of lines in file](linux/count-number-of-lines-in-file.md)  
-- [Change host name in linux server](linux/change-host-name-in-linux-server.md)  
-- [Download apache password protected file using wget in linux](linux/download-apache-password-protected-file-using-wget-in-linux.md)  
-- [Count files per day in a directory in linux](linux/count-files-per-day-in-a-directory-in-linux.md)  
-- [Post ubutnu 20 installation tools checklist](linux/post-ubutnu-20-installation-tools-checklist.md)  
-- [Run a command on each file in directory](linux/run-a-command-on-each-file-in-directory.md)  
-- [How quickly delete a huge directory in linux](linux/how-quickly-delete-a-huge-directory-in-linux.md)  
 
 **Jquery**  
 - [Iterate over several elements in jquery](jquery/iterate-over-several-elements-in-jquery.md)  
