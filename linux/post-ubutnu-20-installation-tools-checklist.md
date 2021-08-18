@@ -9,17 +9,17 @@ apt-get update
 ##### Install necessary dev tools
       
 ```
-apt-get install zip unzip wget curl youtube-dl git subversion dconf-editor build-essential
+apt-get install -y zip unzip wget curl youtube-dl git subversion dconf-editor build-essential
 ```
 
 ##### Install Sublime Text
 
 ```
 apt-get update
-sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+sudo apt install -y dirmngr gnupg apt-transport-https ca-certificates software-properties-common
 curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
-sudo apt install sublime-text
+sudo apt install -y sublime-text
 ```
 
 ##### Install Google chrome
@@ -35,15 +35,14 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 Apache and MySQL
 ```
 apt-get update
-sudo apt install apache2
-sudo apt install mysql-server
+sudo apt install -y apache2 mysql-server
 sudo mysql_secure_installation
 ```
 
 PHP and some extensions
 
 ```
-sudo apt install php libapache2-mod-php php-mysql
+sudo apt install -y php libapache2-mod-php php-mysql
 ```
 ##### Install nvm, npm (7.7.6), node (15.14.0)
 
