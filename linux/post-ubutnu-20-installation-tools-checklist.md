@@ -42,7 +42,7 @@ sudo mysql_secure_installation
 PHP and some extensions
 
 ```
-sudo apt install -y php libapache2-mod-php php-mysql php-curl php-xml
+sudo apt install -y php libapache2-mod-php php-mysql php-curl php-xml php-gd
 ```
 ##### Install nvm, npm (7.7.6), node (15.14.0)
 
