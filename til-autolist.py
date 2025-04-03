@@ -1,42 +1,32 @@
-# This little script automatically creates README for this project
-# and links all TILs appropriately... Gosh... The blessing of loops
 from os import listdir, path
-from sys import exit
 
-output = 'Things I Learned Today about programming languages, frameworks and libararies or technology in general  \n\n'
+output = 'Small markdown files documenting small things I learn every day. These can be anything from a small command to a small code snippet. The goal is to have a collection of small things that I can refer to later.\n\n'
 
 total = 0
 directories = {}
+
+# Collect directories and count markdown files
 for mainFile in listdir('.'):
 	if path.isdir(mainFile):
-		quickTotal = 0
-		for file in listdir(mainFile):
-			if file.endswith('.md'):
-				quickTotal += 1
+		quickTotal = sum(1 for file in listdir(mainFile) if file.endswith('.md'))
 		directories[mainFile] = quickTotal
 
-# order directories but number of TILs they have
-# highest to lowest
-directories = sorted(directories, key=lambda i: int(directories[i]))
-directories.reverse()
+# Sort directories alphabetically
+sorted_directories = sorted(directories.keys())
 
-for mainFile in directories:
-	directory = filepath = ''
-	if path.isdir(mainFile):
-		output += '\n**' + mainFile.capitalize() + '**  \n'
-		directory += mainFile
-		current = 0
-		for file in listdir(mainFile):
+for mainFile in sorted_directories:
+	if directories[mainFile] > 0:  # Only include categories with at least one markdown file
+		output += f'\n**{mainFile.capitalize()}**  \n'
+		for file in sorted(listdir(mainFile)):  # Ensure files are also sorted alphabetically
 			if file.endswith('.md'):
-				filepath = directory + '/' + file
 				filetitle = file.replace('-', ' ').replace('.md', '').capitalize()
-				output += f'- [{filetitle}]({filepath})  \n'
-				current += 1
+				output += f'- [{filetitle}]({mainFile}/{file})  \n'
 				total += 1
 
-		print(f'{mainFile} = {current} files')
+		print(f'{mainFile} = {directories[mainFile]} files')
 
 print(f'\n{total} total TILs so far\n')
-file = open('README.md', 'w')
-file.write(output)
-file.close()
+
+# Write to README.md
+with open('README.md', 'w') as file:
+	file.write(output)
