@@ -1,6 +1,10 @@
 Small markdown files documenting small things I learn every day. These can be anything from a small command to a small code snippet. The goal is to have a collection of small things that I can refer to later.
 
 
+**Aws**  
+- [How to download all s3 bucket files](aws/how-to-download-all-s3-bucket-files.md)  
+- [Upload files to s3 php sdk](aws/upload-files-to-s3-php-sdk.md)  
+
 **Bash**  
 - [Activate a virtual environment via bash](bash/activate-a-virtual-environment-via-bash.md)  
 - [Bulk encrpty directory copy to other gpg](bash/bulk-encrpty-directory-copy-to-other-gpg.md)  
