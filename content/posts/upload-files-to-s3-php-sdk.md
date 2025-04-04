@@ -1,5 +1,19 @@
-# How to upload files to S3 using PHP SDK
-
+---
+title: "How to upload files to S3 using PHP SDK"
+date: 2020-09-15T11:30:03+00:00
+tags: ["AWS", "S3"]
+draft: false
+hidemeta: false
+comments: false
+canonicalURL: "https://canonical.url/to/page"
+disableShare: false
+disableHLJS: false
+hideSummary: true
+searchHidden: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+---
 Alright, uploading files to S3 with PHP? Super simple with the AWS SDK. Let’s break it down.
 
 First, install the AWS SDK for PHP (if you haven’t already):

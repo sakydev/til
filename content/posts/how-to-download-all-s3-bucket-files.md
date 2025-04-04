@@ -1,4 +1,19 @@
-## How to download all files from an S3 bucket
+---
+title: "How to download all files from an S3 bucket"
+date: 2020-09-15T11:30:03+00:00
+tags: ["AWS", "S3"]
+draft: false
+hidemeta: false
+comments: false
+canonicalURL: "https://canonical.url/to/page"
+disableShare: false
+disableHLJS: false
+hideSummary: true
+searchHidden: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+---
 To download all files from an S3 bucket using the AWS CLI, use the following command:
 
 ```bash
