@@ -1,6 +1,6 @@
 ---
 title: "How to download all files from an S3 bucket"
-date: 2020-09-15T11:30:03+00:00
+date: 2025-04-04T11:30:03+00:00
 tags: ["AWS", "S3"]
 draft: false
 hidemeta: false

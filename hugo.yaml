@@ -1,7 +1,7 @@
 baseURL: "https://examplesite.com/"
 title: TIL by Sakydev
 pagination:
-  pagerSize: 5
+  pagerSize: 30
 theme: PaperMod
 
 enableRobotsTXT: true
