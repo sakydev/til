@@ -3,6 +3,9 @@ title: TIL by Sakydev
 pagination:
   pagerSize: 30
 theme: PaperMod
+caches:
+  images:
+    dir: :cacheDir/images
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -108,6 +111,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
     - identifier: tags
       name: Tags
       url: /tags/
