@@ -1,4 +1,10 @@
-## Parsing JSON into a Struct in Go
+---
+author: "Saqib Razzaq"
+title: "Parse JSON to Struct in Go"
+date: "2025-04-06"
+tags: ["go"]
+---
+
 Parsing JSON into a struct using json.Unmarshal is a fundamental task in Go when working with APIs or reading JSON files. The encoding/json package makes this process straightforward.
 
 Let's say we receive the following JSON payload:

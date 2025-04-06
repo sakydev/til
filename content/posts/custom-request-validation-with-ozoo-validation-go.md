@@ -1,3 +1,10 @@
+---
+author: "Saqib Razzaq"
+title: "Custom Request Validation with ozzo-validation in Go"
+date: "2025-04-06"
+tags: ["go"]
+---
+
 Custom validation in Echo using `ozzo-validation` makes input handling much cleaner and more structured. Instead of manually checking each field, you can define validation rules declaratively.
 
 Let's say we need to validate a form submission where each field has attributes like label, type, and is_required.

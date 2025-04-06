@@ -1,4 +1,10 @@
-## Group Similar Routes in Go Echo
+---
+author: "Saqib Razzaq"
+title: "Group Similar Routes in Go Echo"
+date: "2025-04-06"
+tags: ["go", "echo"]
+---
+
 Using Echo groups is a great way to organize routes, especially when dealing with versioning, middleware, or related endpoints. Instead of cluttering the main file with multiple routes, you can logically group them.
 
 ```go

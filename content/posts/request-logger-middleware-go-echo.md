@@ -1,4 +1,10 @@
-## Go Echo Request Logger Middleware
+---
+author: "Saqib Razzaq"
+title: "Request Logger Middleware in Go Echo"
+date: "2025-04-06"
+tags: ["go", "echo"]
+---
+
 Middleware in Echo allows us to intercept requests before they reach handlers, making it a great place to add logging. Echo provides a built-in logging middleware (middleware.Logger()) but for more control, we can create a custom middleware:
 
 
